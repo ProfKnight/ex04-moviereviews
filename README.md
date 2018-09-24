@@ -26,7 +26,7 @@ a set of user reviews, and the total number of reviews. There are only six movie
 
 #### predictEmptyReviews
 
-This function, called `predictEmptyReviews` and in the `edu::sbcc::cs140` namespace, will take in two arrays, a two dimensional array with all the existing reviews, a Maximum of 1000, for the 6 movies, a user review with 6 reviews, including 0's where there is no review from the user, and to total number of reviews that already exist.
+This function, called `predictEmptyReviews` and in the `edu::vcccd::vc::csv13` namespace, will take in two arrays, a two dimensional array with all the existing reviews, a Maximum of 1000, for the 6 movies, a user review with 6 reviews, including 0's where there is no review from the user, and to total number of reviews that already exist.
 
 You will then use the nearest neighbor method to predict what rating the user gave for the movies that have a review score of 0. In the case where the multiple reviews from the full collection of reviews is the same distance, then take the average of all the scores with the same distance to make the predicted user rating.
 
@@ -43,9 +43,9 @@ Under **Name** fill in
 moviereviews. CLion will add the `.h` extension. Press **OK**. You should now see the file `moviereviews.h` in
 the project explorer in the `include` directory.
 
-Write your declaration of the `sort` in here in the `edu::sbcc::cs140` namespace.
+Write your declaration of the `sort` in here in the `edu::vcccd::vc::csv13` namespace.
 
-In addition, I want you to get used to using constants. Add the following declarations within the `edu::sbcc::cs140` namespace, just above the function declaration: 
+In addition, I want you to get used to using constants. Add the following declarations within the `edu::vcccd::vc::csv13` namespace, just above the function declaration: 
 ```cpp
 static constexpr size_t NUMBER_MOVIES = 6;
 static constexpr size_t MAX_REVIEWS = 1000;
@@ -65,7 +65,7 @@ use the `.cc` extension. Select `.cc` in the **Type** drop-down
 and press **OK**. You should now see the file `moviereviews.cc` (or whatever you named the file) in
 the project explorer in the `src` directory.
 
-Write your implementation of the `sort` in here in the `edu::sbcc::cs140` namepspace.
+Write your implementation of the `sort` in here in the `edu::vcccd::vc::csv13` namepspace.
 
 #### main()
 
